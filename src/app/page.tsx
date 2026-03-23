@@ -111,9 +111,8 @@ export default function HomePage() {
           ]}
           buttons={[
             {
-              text: "Get Your Website",              href: "/contact"},
+              text: "Get Your Website",              href: "/contact"}
           ]}
-          useInvertedBackground={false}
         />
       </div>
 
