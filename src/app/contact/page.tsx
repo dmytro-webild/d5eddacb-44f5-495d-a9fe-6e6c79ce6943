@@ -8,11 +8,11 @@ import Link from "next/link";
 
 export default function ContactPage() {
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "Portfolio", href: "/portfolio" },
-    { name: "About", href: "/about" },
-    { name: "Contact", href: "/contact" },
+    { name: "Home", id: "/", href: "/" },
+    { name: "Services", id: "/services", href: "/services" },
+    { name: "Portfolio", id: "/portfolio", href: "/portfolio" },
+    { name: "About", id: "/about", href: "/about" },
+    { name: "Contact", id: "/contact", href: "/contact" },
   ];
 
   return (

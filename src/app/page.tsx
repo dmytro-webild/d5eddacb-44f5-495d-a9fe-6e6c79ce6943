@@ -42,8 +42,7 @@ const getAssetUrl = (id) => {
 const getAssetAlt = (id) => {
   const asset = assetMap.find((a) => a.id === id);
   if (asset && asset.alt) return asset.alt;
-  const planAsset = plan.assets.images.find(img => img.id === id);
-  return planAsset && planAsset.freepikPhrases && planAsset.freepikPhrases[0] ? planAsset.freepikPhrases[0] : `Image for ${id}`;
+  return `Image for ${id}`;
 };
 
 const navItems = [
@@ -114,7 +113,6 @@ export default function HomePage() {
             {
               text: "Get Your Website",              href: "/contact"},
           ]}
-          mediaAnimation="opacity"
           useInvertedBackground={false}
         />
       </div>
