@@ -169,22 +169,18 @@ export default function HomePage() {
             {
               id: "1",              name: "Hair Salon Website",              price: "View Case Study",              imageSrc: getAssetUrl("portfolio-salon"),
               imageAlt: getAssetAlt("portfolio-salon"),
-              href: "/portfolio"
             },
             {
               id: "2",              name: "Restaurant Ordering Site",              price: "View Case Study",              imageSrc: getAssetUrl("portfolio-restaurant"),
               imageAlt: getAssetAlt("portfolio-restaurant"),
-              href: "/portfolio"
             },
             {
               id: "3",              name: "Delivery Service Platform",              price: "View Case Study",              imageSrc: getAssetUrl("portfolio-delivery"),
               imageAlt: getAssetAlt("portfolio-delivery"),
-              href: "/portfolio"
             },
             {
               id: "4",              name: "Personal Brand Portfolio",              price: "View Case Study",              imageSrc: getAssetUrl("portfolio-personal-brand"),
               imageAlt: getAssetAlt("portfolio-personal-brand"),
-              href: "/portfolio"
             },
           ]}
           gridVariant="two-columns-alternating-heights"
